@@ -1,26 +1,47 @@
 # 🏠 House Price Prediction – SkillCraft Internship Task 01
 
-This project is part of SkillCraft Technology's Machine Learning Internship.  
-The goal is to build a **Linear Regression** model to predict house prices using Kaggle data.
+This project is part of the **SkillCraft Technology Machine Learning Internship**.  
+The goal is to predict housing prices using **Linear Regression** on Kaggle's housing dataset.
 
-## 🔧 Libraries Used
-- pandas, NumPy
-- matplotlib, seaborn
-- scikit-learn
+---
 
 ## 📂 Dataset
-- Source: Kaggle – House Prices: Advanced Regression Techniques
-- File used: `train.csv`
 
-## 🔍 Work Done
-- Cleaned data (removed high-null columns)
-- One-hot encoded categorical variables
-- Trained and evaluated a Linear Regression model
-- Plotted Actual vs Predicted values
+- **Source:** Kaggle – House Prices: Advanced Regression Techniques  
+- **File used:** `train.csv`
+
+---
+
+## 🔧 Technologies Used
+
+- Python  
+- Jupyter Notebook / Google Colab  
+- pandas, NumPy  
+- scikit-learn  
+- seaborn, matplotlib
+
+---
+
+## 🔍 Workflow Summary
+
+- Loaded and explored the dataset  
+- Removed columns with excessive missing values  
+- Converted categorical variables using one-hot encoding  
+- Split the data into training and testing sets  
+- Trained a Linear Regression model  
+- Evaluated the model using R² Score and RMSE  
+- Visualized the predicted vs actual prices
+
+---
 
 ## 📈 Results
-- R² Score: _<your value here>_
-- RMSE: _<your value here>_
 
-## 🧑‍💻 Author
-Shaik Rahamat Shareef – SkillCraft Intern
+- **R² Score:** 0.8672  
+- **RMSE:** 28436.23
+
+---
+
+## 👨‍💻 Author
+
+**Shaik Rahamat Shareef**  
+Intern at SkillCraft Technology
