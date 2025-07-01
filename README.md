@@ -15,7 +15,7 @@ The goal is to predict housing prices using **Linear Regression** on Kaggle's ho
 ## 🔧 Technologies Used
 
 - Python  
-- Jupyter Notebook / Google Colab  
+- Google Colab  
 - pandas, NumPy  
 - scikit-learn  
 - seaborn, matplotlib
